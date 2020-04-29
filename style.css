@@ -1,0 +1,34 @@
+body {
+	background-color: #000;
+}
+
+.tabs {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+}
+
+.tab-wrap {
+	display: flex;
+}
+
+.tab-heading {
+	width: 150px;
+	height: 50px;
+	background-color: teal;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.tab-heading:hover {
+	background-color: gray;
+	transition: 0.3;
+}
+
+.tab-content {
+	border: 5px solid teal;
+	width: 800px;
+	background-color: #fff;
+	padding: 20px 50px;
+}
